@@ -1,8 +1,6 @@
 import styled, { css } from 'styled-components';
 import { cssVars } from '../../styles/global';
 
-console.log(cssVars);
-
 const dragActive = css`
     border-color: ${cssVars.secondColor};
 `;

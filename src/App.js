@@ -94,8 +94,7 @@ class App extends Component {
     await api.delete(`posts/${id}`);
 
     this.setState({
-      uploadedFiles: this.state.uploadedFiles.filter((file) => file.id !== id ),
-
+      uploadedFiles: this.state.uploadedFiles.filter((file) => file.id !== id )
     })
   }
 
